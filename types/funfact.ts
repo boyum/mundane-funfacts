@@ -1,12 +1,12 @@
 export interface FunFact {
-  index: number;
-  text: string;
+	index: number;
+	text: string;
 }
 
 interface FunFactDataElement {
-  text: string;
+	text: string;
 }
 
 export interface FunFactData {
-  funfacts: FunFactDataElement[];
+	funfacts: FunFactDataElement[];
 }
