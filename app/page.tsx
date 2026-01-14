@@ -1,3 +1,7 @@
+import {
+	ThemePickerButtonWrapper,
+	ThemePickerDropdownWrapper,
+} from "@/components/ThemePickerWrapper";
 import { loadFunFacts } from "@/lib/funfacts";
 import styles from "./page.module.css";
 
@@ -12,10 +16,14 @@ export default async function Home() {
 			<div className={styles.container}>
 				<header className={styles.header}>
 					<div className={styles.headerContent}>
-						<h1 className={styles.title}>
-							<span>sinre</span>.fun
-						</h1>
+						<div className={styles.headerWrapper}>
+							<h1 className={styles.title}>
+								<span>sinre</span>.fun
+							</h1>
+							<ThemePickerButtonWrapper />
+						</div>
 					</div>
+					<ThemePickerDropdownWrapper />
 				</header>
 
 				<main className={styles.mainContent}>
@@ -26,14 +34,6 @@ export default async function Home() {
 							<div key={fact.index} className={styles.fact}>
 								<h2 className={styles.factTitle}>#{fact.index}</h2>
 								<p className={styles.factInfo}>{fact.text}</p>
-								<a
-									href={`https://twitter.com/share?text=Fun fact: "${fact.text}" From: &url=sinre.fun`}
-									target="_blank"
-									rel="noopener"
-									className={styles.factSourceLink}
-								>
-									Share on Twitter
-								</a>
 							</div>
 						))}
 					</div>

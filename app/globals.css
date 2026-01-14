@@ -37,6 +37,62 @@ button {
 	--color-bg-primary-offset: #eee;
 }
 
+.office-beige {
+	--color-text: #333;
+	--color-text-offset: #999;
+	--color-bg-primary: #f5f5dc;
+	--color-bg-secondary: #d4b896;
+	--color-bg-primary-offset: #e0dcc8;
+}
+
+.concrete-gray {
+	--color-text: #1a1a1a;
+	--color-text-offset: #7a7a7a;
+	--color-bg-primary: #e0e0e0;
+	--color-bg-secondary: #808080;
+	--color-bg-primary-offset: #c8c8c8;
+}
+
+.paper-white {
+	--color-text: #000;
+	--color-text-offset: #ccc;
+	--color-bg-primary: #fff;
+	--color-bg-secondary: #e8e8e8;
+	--color-bg-primary-offset: #f5f5f5;
+}
+
+.cardboard-brown {
+	--color-text: #2d1f1a;
+	--color-text-offset: #8b7355;
+	--color-bg-primary: #d4a574;
+	--color-bg-secondary: #8b6f47;
+	--color-bg-primary-offset: #c19763;
+}
+
+.wood-light {
+	--color-text: #2c2416;
+	--color-text-offset: #9a8a6a;
+	--color-bg-primary: #f0e5d1;
+	--color-bg-secondary: #c9a96e;
+	--color-bg-primary-offset: #ddd3bb;
+}
+
+.wall-cream {
+	--color-text: #2b2620;
+	--color-text-offset: #a39a8c;
+	--color-bg-primary: #faf7f0;
+	--color-bg-secondary: #e6d5b8;
+	--color-bg-primary-offset: #ebe6dc;
+}
+
+.office-fluorescent {
+	--color-text: #1a1a1a;
+	--color-text-offset: #8a8a8a;
+	--color-bg-primary: #f8f8f8;
+	--color-bg-secondary: #c8e6c9;
+	--color-bg-primary-offset: #e8e8e8;
+}
+
 html {
 	scroll-behavior: smooth;
 }
