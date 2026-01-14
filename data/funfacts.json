@@ -1,37 +1,17 @@
-{
-	"funfacts": [
-		{
-			"text": "The street outside my apartment is one-way"
-		},
-		{
-			"text": "I sometimes see a bird on my way to work"
-		},
-		{
-			"text": "My coffee mug holds exactly 350ml"
-		},
-		{
-			"text": "There are 14 steps between my floor and the ground floor"
-		},
-		{
-			"text": "The elevator in my building makes a beep sound on every floor"
-		},
-		{
-			"text": "My keyboard has 87 keys"
-		},
-		{
-			"text": "The nearest bus stop is 230 meters from my door"
-		},
-		{
-			"text": "My refrigerator hums in the key of F"
-		},
-		{
-			"text": "There are three power outlets in my living room"
-		},
-		{
-			"text": "The tap in my kitchen drips once every 47 seconds"
-		},
-		{
-			"text": "My first name has two syllables"
-		}
-	]
-}
+[
+  "The street outside my apartment is one-way",
+  "I sometimes see a bird on my way to work",
+  "My coffee mug holds exactly 350ml",
+  "There are 14 steps between my floor and the ground floor",
+  "The elevator in my building makes a beep sound on every floor",
+  "My keyboard has 87 keys",
+  "The nearest bus stop is 230 meters from my door",
+  "My refrigerator hums in the key of F",
+  "There are three power outlets in my living room",
+  "The tap in my kitchen drips once every 47 seconds",
+  "My first name has two syllables",
+	"I have been to more than three concerts in my life",
+	"My favorite color is blue",
+	"I don't particularly like drinking dish soap directly from the bottle",
+	"My phone's battery lasts for about 12 hours on a full charge"
+]
