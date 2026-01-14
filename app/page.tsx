@@ -27,7 +27,11 @@ export default async function Home() {
         </header>
 
         <main className={styles.mainContent}>
-          <p className={styles.tagline}>I'm tired of having to share fun facts at social events. Are you, too? Use the ones below and embrace passive aggressiveness</p>
+          <p className={styles.tagline}>
+            I'm tired of having to share fun facts at social events. Are you,
+            too? Feel free to use the ones below and revel in passive
+            aggressiveness.
+          </p>
 
           <div className={styles.facts}>
             {funfacts.toReversed().map((fact) => (
